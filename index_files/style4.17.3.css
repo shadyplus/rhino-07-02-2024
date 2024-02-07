@@ -1,0 +1,33 @@
+/*
+ Theme Name:     Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    Divi Child Theme
+ Author:         Elegant Themes
+ Author URI:     https://www.elegantthemes.com
+ Template:       Divi
+ Version:        1.0.0
+*/
+ 
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+.et_pb_countdown_timer .section p {
+    opacity: .4;
+}
+
+@font-face {
+    font-family: modules;
+    src: url("../fonts/modules.eot");
+    src: url("../fonts/modules.eot?#iefix") format("embedded-opentype"), url("../fonts/modules.woff2") format('woff2'), url("../fonts/modules.woff") format('woff'), url("../fonts/modules.svg#modules") format('svg')
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free Solid";
+    src: url("../fonts/fa-solid-900.eot");
+    src: url("../fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fa-solid-900.woff") format('woff'), url("") format('truetype'), url("../fonts/fa-solid-900.svg#FontAwesome5FreeSolid") format('svg')
+}
+
+p , h4 {
+    direction: rtl;
+    text-align: right;
+}
